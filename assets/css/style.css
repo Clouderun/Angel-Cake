@@ -1,0 +1,82 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#edddff ;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px;
+    height: 480px;
+    background-color: #b5eeff;
+    border: 2px solid #007d89;
+    border-radius: 3px;
+    margin: 12rem;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(206, 188, 96, 70%);
+    
+}
+
+.inside{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 380px;
+    height: 400px;
+    background-color: #c6f2ff;
+    border: 2px solid #d3c0d6;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.angelimgcontent{
+    width: 100%;
+    height: 55%;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(/assets/bowl\ w\ mix.png) no-repeat center;
+    transition: ease-out 1s;
+
+}
+
+#angelbutton{
+    width: 40%;
+    color: #a06fa8;
+    background-color: #93e6ff;
+    border-radius: 3px;
+    height: 12%;
+    margin-left: 7rem;
+    cursor: pointer;
+    font-size: medium;
+    transition: ease-in 1s;
+}
+
+#angelbutton:hover{
+    background-color: #dde972;
+}
+
+.angelfinalmsg{
+    display: none;
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    color:  rgba(182, 165, 83, 0.7);
+    background-color:#fff178;
+}
